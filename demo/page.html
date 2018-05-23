@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>角色授权</title>
+    <link href="page.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="main-content main-content-no-left">
+            <div class="content-head">
+                <ul class="topbar">
+                    <li class="choice">
+                        <a href="javascript:void(0)" id="choice-role">
+                            <label>角色</label><input id="RoleName" disabled="disabled">
+                        </a>
+                    </li>
+                    <li class="button query" id="query"><img src="icon-btn-query.png" />查询</li>
+                    <li class="button button-select-all" id="button-select-all">全选/取消全选</li>
+                    <li class="button" id="submit-edit">保存</li>
+                </ul>
+            </div>
+
+            <ul class="horizontally-list" id="menu-level1-tab"></ul>
+            <div class="tab-panel" id="auth-panel"></div>
+        </div>
+    </div>
+
+    <div class="window">
+        <div class="window-title">
+            选择角色<a id="window-close"></a>
+        </div>
+        <div class="window-body">
+            <ul id="rolelist" class="choices"></ul>
+            <div class="buttons">
+                <span class="button window-save" id="window-save">保存</span>
+                <span class="button window-cancel" id="window-cancel">取消</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="rem.js"></script>
+    <script src="require.js" data-main="page"></script>
+
+    <!--<script src="/js/common/jquery-1.12.4.js"></script>
+    <script src="/lib/Extjs-4.2.3/ext-all.js"></script>
+    <script src="/js/common/lodash-3.10.1.js"></script>
+    <script src="/js/common/jquery-ui.js"></script>
+    <script src="/lib/alert/js/alert.js"></script>
+    <script src="/js/common/pagination.js"></script>
+    <script src="/js/common/json-for-ie7.js"></script>
+    <script src="/js/common/util2.js"></script>
+
+    <script src="/js/common/my-ext-grid2.js"></script>
+    <script src="/js/common/my-right-panel.js"></script>
+    <script src="/js/common/my-form.js"></script>
+    <script src="/js/common/my-ajax.js"></script>
+    <script src="roleauthor3.js"></script>-->
+</body>
+</html>
